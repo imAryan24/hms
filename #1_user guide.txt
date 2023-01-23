@@ -1,0 +1,18 @@
+HOTEL MANAGEMENT SYSTEM - HTML PROJECT
+_______________user guide__________________
+               The Coding Lab - Curious Worm
+_________________________________________
+
+AT VERY FIRST EXTRACT/COPY ALL THE FILES
+FROM THIS ZIP-FOLDER TO A NORMAL FOLDER
+
+hms.html-----IS HOME PAGE
+open it at first for a better experience.
+
+***********FOR ALL LOGINS*********
+PASSWORD IS : "12345"
+USER ID : "ABVE" 
+
+From :
+Curious Worm
+The Coding Lab

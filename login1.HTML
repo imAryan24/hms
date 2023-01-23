@@ -1,0 +1,78 @@
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+<title>
+AVENUE:login
+</title>
+</head>
+<body>
+<ul>
+<li><a><a href="hms.html">HOME</a></a></li>
+</ul>
+<div class="loginbox">
+<img src="log.png" class="log">
+<h1>AVENUE : STAFF LOGIN</h1>
+<form>
+<p>USERNAME / ID</p>
+<input type="text" id="username" value="S" name="username" placeholder="enter your username">
+<p>PASSWORD</p>
+<input type="password" name="" placeholder="enter your password" id="password">
+<input type="submit" name="" value="LOGIN" onclick="login()">
+
+<br>
+<a href="forget.html">forgot password</a>
+<br>
+<a href="new.html">create a new account</a>
+
+<script>
+function login()
+{
+var a=document.getElementById('username').value
+var b=document.getElementById('password').value
+if(a==""||b=="")
+{
+alert("!!! please fill the details !!!");
+}
+else 
+if(a=="SAVENUE" && b=="12345")
+{
+window.open("manager1.html");
+}
+else
+if(a=="GAVENUE" && b=="12345")
+{
+window.open("gservice.html");
+}
+else
+if(a=="RJGA" && b=="12345")
+{
+window.open("manager1.html");
+}
+else
+if(a=="ABVE" && b=="12345")
+{
+window.open("manager1.html");
+}
+else
+if(a=="ABZR" && b=="12345")
+{
+window.open("manager1.html");
+}
+else
+if(a=="AMNM" && b=="12345")
+{
+window.open("manager1.html");
+}
+else
+if(a=="YASW" && b=="12345")
+{
+window.open("manager1.html");
+}
+else
+{
+alert("wrong id/password");
+}
+
+}
+</script>
+</body>

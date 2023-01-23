@@ -1,0 +1,147 @@
+<HTML>
+<HEAD>
+<TITLE>AVENUE: GUEST DETAILS
+</TITLE>
+<STYLE>
+ul
+{
+margin-left:0px;
+margin-top:10px;
+list-style: none;
+}
+ul li
+{
+float: left;
+width: 168px;
+height: 40px;
+background-color:#E89E00;
+opacity:;
+line-height: 40px;
+text-align: center;
+font-size: 20px;
+margin-right:2px;
+border-radius: 20px;
+border: 4px solid gray;
+}
+ul li a
+{
+text-decoration:none;
+color:#000000;
+display:block;
+}
+
+ul li a:hover
+{
+background-color:#0EA101  ;
+border-radius: 20px;
+}
+ul li ul li
+{
+display:none;
+font-size: 15px;
+}
+ul li:hover ul li
+{
+display:block;
+}
+h1
+{
+color: black;
+font-weight:bold;
+font-size:50px;
+text-align:center;
+background-color:#E89E00;
+}
+
+
+.item1 { grid-area: a; }
+.item2 { grid-area: b; }
+.item3 { grid-area: c; }
+.item4 { grid-area: d; }
+.item5 { grid-area: e; }
+.item6 { grid-area: f; }
+.item7 { grid-area: g; }
+.item8 { grid-area: h; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'a a c c'
+    'b f c c'
+    'd e g h';
+    
+  grid-gap: 10px;
+  background-color: #E89E00;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align:;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+</STYLE>
+</HEAD>
+<BODY>
+
+<ul>
+<li><a><a href="hms.html">HOME</a></a></li>
+<li><a><a href="login.html">SERVICES</a></a></li>
+</ul>
+<h1>AVENUE: GUEST DETAILS</h1>
+
+
+<DIV CLASS="grid-container">
+<div class="item1">
+<P ALIGN="CENTER"><B>AVENUE: GUEST ID</B></P>
+</div>
+
+<div class="item2">
+<FORM action="" method="">
+ROOM NUMBER:
+<INPUT TYPE="TEXT" VALUE="BH5121" size="6">
+<BR>
+BLOCK:
+<INPUT TYPE="TEXT" VALUE="B" size="2">
+</div>
+
+<div class="item3">
+<p align="center">
+<img src="main.jpg" height="120" width="320">
+</p>
+</div>
+
+<div class="item4">
+<FORM action="" method="">
+GUEST ADHAAR:
+<INPUT TYPE="TEXT" VALUE="0000-1111-2222" size="14">
+</div>
+
+<div class="item5">
+DATE OF BOOKING:
+<INPUT TYPE="TEXT" VALUE="21-03-18" size="8">
+</div>
+
+<div class="item6">
+<FORM action="" method="">
+SERVICE TYPE:
+<INPUT TYPE="TEXT" VALUE="PREMIUM" size="6">
+
+</div>
+
+<div class="item7">
+DATE OF EXP. OF BOOKING:
+<INPUT TYPE="TEXT" VALUE="26-03-18" size="8">
+</div>
+<div class="item8">
+RENEWABLE:
+<BR>
+YES:
+<INPUT TYPE="RADIO" NAME="Y" CHECKED>
+NO:
+<INPUT TYPE="RADIO" NAME="Y">
+</div>
+</div>
+<br>
+<img src="q.jpg" height="245" width="1280">

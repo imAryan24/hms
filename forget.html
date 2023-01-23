@@ -1,0 +1,210 @@
+<HTML>
+<HEAD>
+<TITLE>AVENUE: ACCOUNT RECOVERY
+</TITLE>
+<STYLE>
+ul
+{
+margin-left:0px;
+margin-top:10px;
+list-style: none;
+}
+ul li
+{
+float: left;
+width: 168px;
+height: 40px;
+background-color:#E89E00;
+opacity:;
+line-height: 40px;
+text-align: center;
+font-size: 20px;
+margin-right:2px;
+border-radius: 20px;
+border: 4px solid gray;
+}
+ul li a
+{
+text-decoration:none;
+color:#000000;
+display:block;
+}
+
+ul li a:hover
+{
+background-color:#0EA101  ;
+border-radius: 20px;
+}
+ul li ul li
+{
+display:none;
+font-size: 15px;
+}
+ul li:hover ul li
+{
+display:block;
+}
+h1
+{
+color: black;
+font-weight:bold;
+font-size:50px;
+text-align:center;
+background-color:#E89E00;
+}
+
+.loginbox
+{
+width:380px;
+height:480px;
+background:#000;
+border-radius: 40px;
+color:#fff;
+top:50%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+}
+
+.log
+{
+width:110px;
+height:110px;
+border-radius:50%;
+position:absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+
+h1
+{
+margin: 0;
+padding: 60px;
+text-align: center;
+font-size: 22px;
+}
+
+.loginbox p
+{
+margin-left:10px;
+padding: 0;
+font-weight: bold;
+}
+
+.loginbox input
+{
+width: 90%;
+margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+margin-left:10px;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+border: none;
+outline: none;
+height: 40px;
+margin-left:15px;
+background: #E89E00 ;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+cursor: pointer;
+background: #65F63D;
+color:#000;
+}
+
+.loginbox a
+{
+text-decoration: none;
+font-size: 15px;
+line-height: 20px;
+color: #ffc107;
+margin-left:30px;
+}
+
+.loginbox a:hover
+{
+color:#65F63D;
+}
+
+</STYLE>
+</HEAD>
+<BODY background="bg.jpg">
+
+<ul>
+<li><a><a href="hms.html">HOME</a></a></li>
+</ul>
+<h1>AVENUE: GUEST DETAILS</h1>
+<br>
+<div class="loginbox">
+<img src="log.png" class="log">
+<h1>AVENUE : PASSWORD RECOVERY</h1>
+<form>
+<p>USERNAME / ID</p>
+<input type="text" id="username" name="username" placeholder="enter your username">
+<p>AUTHENTICATION</p>
+<input type="text" name="" placeholder="enter your mobile number" id="password">
+<input type="submit" name="" value="CONTINUE" onclick="login()">
+
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<img src="q.jpg" height="245" width="1280">
+
+<script>
+function login()
+{
+var a=document.getElementById('username').value
+var b=document.getElementById('password').value
+if(a==""||b=="")
+{
+alert("kindly fill all the details");
+}else
+alert("an OTP has been sent on "+b);
+
+
+}
+</script>
+</body>
+</html>

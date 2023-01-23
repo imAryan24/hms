@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<style>
+ul
+{
+margin-left:0px;
+margin-top:10px;
+list-style: none;
+}
+ul li
+{
+float: left;
+width: 168px;
+height: 40px;
+background-color:#E89E00;
+opacity:;
+line-height: 40px;
+text-align: center;
+font-size: 20px;
+margin-right:2px;
+border-radius: 20px;
+border: 4px solid gray;
+}
+ul li a
+{
+text-decoration:none;
+color:#000000;
+display:block;
+}
+
+ul li a:hover
+{
+background-color:#0EA101  ;
+border-radius: 20px;
+}
+ul li ul li
+{
+display:none;
+font-size: 15px;
+}
+ul li:hover ul li
+{
+display:block;
+}
+h1
+{
+color: black;
+font-weight:bold;
+font-size:50px;
+text-align:center;
+background-color:#E89E00;
+}
+table
+{
+margin-left:40px;
+font-size:30px;
+margin-right:10px;
+}
+table td
+{
+text-align:RIGHT;
+font-size:20px;
+}
+</style>
+<title>AVENUE: EVENTS
+</title>
+</head>
+<body>
+<ul>
+<li><a><a href="hms.html">HOME</a></a></li>
+</ul>
+<h1>
+AVENUE: EVENTS
+</h1>
+<pre>
+<table>
+<th>
+EVENTS
+</TH>
+<TH>
+         TIMING
+</TH>
+<TH>
+         LOCATION
+</TH>
+<TH>
+         PARTICIPATED
+</TH>
+<tr>
+<td>
+<img src="e1.jpg" width="220" height="180">
+TUG-WAR
+</td>
+<td>
+        5pm 0n 27<sup>th</sup>April
+</td>
+<td>
+GARDEN-P2
+</td>
+<td>
+<p id="av">NO</p>
+<INPUT TYPE="BUTTON" VALUE="PARTICIPATE NOW" onclick="abc()">
+</td>
+</TR>
+<tr>
+<td>
+<img src="e2.jpg" width="220" height="180">
+LIVE-CONCERT
+</td>
+<td>
+        12pm 0n 4<sup>th</sup>May
+</td>
+<td>
+OPEN AUDI-1
+</td>
+<td>
+<p id="av1">NO</p>
+<INPUT TYPE="BUTTON" VALUE="PARTICIPATE NOW" onclick="abc1()">
+</td>
+</TR>
+<tr>
+<td>
+<img src="e3.jpg" width="220" height="180">
+YOGA
+</td>
+<td>
+        5am-7am everyday
+</td>
+<td>
+GARDEN-P1
+</td>
+<td>
+<p id="av2">NO</p>
+<INPUT TYPE="BUTTON" VALUE="PARTICIPATE NOW" onclick="abc2()">
+</td>
+</TR>
+</table>
+</pre>
+<br>
+<br>
+<img src="q.jpg" height="245" width="1280">
+
+<script>
+function abc()
+{
+var a=confirm("are you sure ? ");
+if(a==true)
+{
+alert("successfully participated on " + Date());
+}
+var str = document.getElementById("av").innerHTML; 
+var res = str.replace("NO", "YES");
+document.getElementById("av").innerHTML = res;
+}
+
+function abc1()
+{
+var b=confirm("are you sure ? ");
+if(b==true)
+{
+alert("successfully participated on " + Date());
+}
+var str = document.getElementById("av").innerHTML; 
+var res = str.replace("NO", "YES");
+document.getElementById("av1").innerHTML = res;
+}
+
+
+function abc2()
+{
+var c=confirm("are you sure ? ");
+if(c==true)
+{
+alert("successfully participated on " + Date());
+}
+var str = document.getElementById("av").innerHTML; 
+var res = str.replace("NO", "YES");
+document.getElementById("av2").innerHTML = res;
+}
+
+</script>
+</body>
+</html>
+
